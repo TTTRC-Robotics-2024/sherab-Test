@@ -1,0 +1,31 @@
+Terminal usage.
+1.To list all files and directories in the current directory, i will use the ls command without any arguments. By using this command ls in ardunio it will show all the flies and directories in the current directory.
+2.The cd command in the terminal is used to change the current working directory. This command allows you to navigate through the directory structure of your file system. By specifying a directory as an argument to cd, you can move into that directory.
+3.The ls command is used to list files and directories in a directory. When used without any options, ls provides a simple list of file names in the current directory,where as The ll command provides a long listing of files and directories in the current directory. This long listing includes additional information such as file permissions, number of links, owner, group, size, and last modified date. It provides a more detailed view of the files and directories compared to the basic ls command.
+
+
+Ardunio basic
+1.An Arduino microcontroller is a small, programmable device that is used to control and automate electronic projects. It is based on open-source hardware and software, making it accessible and easy to use for beginners and experienced makers alike. main components of microtroller are 
+1.Microcontroller
+2.Input/Output Pins
+Power Supply
+2.setup(): This function is called when the Arduino board is powered on or reset. It is used for initializing variables, setting pin modes (input or output), and any other one-time setup tasks. The setup() function runs only once at the beginning of the program.
+loop(): After the setup() function completes, the loop() function is called repeatedly for the entire duration the Arduino is powered on. This function is where you put the main logic of your program, such as reading sensors, updating outputs, and making decisions based on the input. The loop() function continues to run in a continuous loop until the Arduino is powered off or reset.
+3.Digital Pins: Digital pins on an Arduino can be used for both input and output operations. When used as output, they can be used to turn devices on or off, such as LEDs, motors, or relays. When used as input, they can read digital signals from sensors or switches, interpreting them as either HIGH or LOW.
+Analog Pins: Analog pins on an Arduino can only be used as input. They are used to read analog voltage levels, which allows the Arduino to measure a range of values, not just on/off states. 
+
+Electronic Components
+1.A resistor is a passive two-terminal electrical component that resists the flow of current.Functions are
+Current Limiting 
+Voltage Dropping
+Signal Conditioning: 
+2.A jumper wire is a short wire used to connect two points in an electronic circuit. They are typically used to make temporary connections for testing and Jumper wires are often used on breadboards, where they can be easily inserted into the board's holes to create connections between components.
+3.An LED, or Light Emitting Diode, is a type of diode that emits light when current flows through it. The operation of an LED differs from a regular diode primarily in its purpose and construction.
+
+ Programming Concepts 
+ 1.A loop is a control structure that allows a set of instructions to be repeated multiple times based on a specific condition or a predefined number of iterations and Loops are used to automate repetitive tasks .
+ 2.A function is a named block of code that performs a specific task or a set of tasks. Functions are used to organize code into manageable chunks, improve code readability, and promote code reuse. Moreover Functions can take input parameters, perform operations based on those inputs, and optionally return a result. They allow you to break down complex problems into smaller, more manageable parts, making your code easier to understand and maintain.Functions are useful for several reasons:
+ 1.Code Reusability: 
+ 2.Abstraction: 
+ 3.Encapsulation: 
+ 4.Modularity
